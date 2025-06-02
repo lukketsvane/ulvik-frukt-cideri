@@ -8,7 +8,7 @@ const nonAlcoholicProducts = [
   {
     id: "stille-stunder",
     name: "Stille Stunder Still Sider",
-    image: "/images/products/stille-stunder.jpg",
+    image: "/images/products/stille-stunder.png",
     alcohol: "0%",
     description: "Alkoholfri sider med same smak som tradisjonell sider",
     color: "Lys gul",
@@ -17,7 +17,7 @@ const nonAlcoholicProducts = [
   {
     id: "hylleblomsider",
     name: "Hylleblomsider",
-    image: "/images/products/hylleblomsider.jpg",
+    image: "/images/products/hylleblomsider.png",
     alcohol: "0%",
     description: "Forfriskande alkoholfri sider med hylleblomsmak",
     color: "Lys gul",
