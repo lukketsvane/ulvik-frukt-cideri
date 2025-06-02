@@ -8,6 +8,7 @@ ulvik-frukt-cideri/
 ├── .gitignore
 ├── .next/ (ignored)
 ├── README.md
+├── code-content.md
 ├── components.json
 ├── eslint.config.mjs
 ├── next-env.d.ts (ignored)
@@ -53,19 +54,74 @@ ulvik-frukt-cideri/
     ├── next.svg
     ├── vercel.svg
     ├── window.svg
+    ├── font/
+    │   ├── Haboro-Black.otf
+    │   ├── Haboro-BlackCondensed.otf
+    │   ├── Haboro-BlackCondensedItalic.otf
+    │   ├── Haboro-BlackExtended.otf
+    │   ├── Haboro-BlackExtendedItalic.otf
+    │   ├── Haboro-BlackItalic.otf
+    │   ├── Haboro-Bold.otf
+    │   ├── Haboro-BoldCondensed.otf
+    │   ├── Haboro-BoldCondensedItalic.otf
+    │   ├── Haboro-BoldExtended.otf
+    │   ├── Haboro-BoldExtendedItalic.otf
+    │   ├── Haboro-BoldItalic.otf
+    │   ├── Haboro-Book.otf
+    │   ├── Haboro-BookCondensed.otf
+    │   ├── Haboro-BookCondensedItalic.otf
+    │   ├── Haboro-BookExtended.otf
+    │   ├── Haboro-BookExtendedItalic.otf
+    │   ├── Haboro-BookItalic.otf
+    │   ├── Haboro-Condensed.otf
+    │   ├── Haboro-CondensedItalic.otf
+    │   ├── Haboro-DemBdCondIta.otf
+    │   ├── Haboro-DemiBold.otf
+    │   ├── Haboro-DemiBoldCondensed.otf
+    │   ├── Haboro-DemiBoldExtended.otf
+    │   ├── Haboro-DemiBoldExtendedItalic.otf
+    │   ├── Haboro-DemiBoldItalic.otf
+    │   ├── Haboro-ExtBdCondIta.otf
+    │   ├── Haboro-ExtBdExtIta.otf
+    │   ├── Haboro-Extended.otf
+    │   ├── Haboro-ExtendedItalic.otf
+    │   ├── Haboro-ExtraBold.otf
+    │   ├── Haboro-ExtraBoldCondensed.otf
+    │   ├── Haboro-ExtraBoldExtended.otf
+    │   ├── Haboro-ExtraBoldItalic.otf
+    │   ├── Haboro-Italic.otf
+    │   ├── Haboro-Light.otf
+    │   ├── Haboro-LightCondensed.otf
+    │   ├── Haboro-LightCondensedItalic.otf
+    │   ├── Haboro-LightExtended.otf
+    │   ├── Haboro-LightExtendedItalic.otf
+    │   ├── Haboro-LightItalic.otf
+    │   ├── Haboro-Medium.otf
+    │   ├── Haboro-MediumCondensed.otf
+    │   ├── Haboro-MediumCondensedItalic.otf
+    │   ├── Haboro-MediumExtended.otf
+    │   ├── Haboro-MediumExtendedItalic.otf
+    │   ├── Haboro-MediumItalic.otf
+    │   ├── Haboro-Regular.otf
+    │   ├── Haboro-Thin.otf
+    │   ├── Haboro-ThinCondensed.otf
+    │   ├── Haboro-ThinCondensedItalic.otf
+    │   ├── Haboro-ThinExtended.otf
+    │   ├── Haboro-ThinExtendedItalic.otf
+    │   └── Haboro-ThinItalic.otf
     └── images/
         ├── apple-closeup-new.png
         ├── bottle-clear-2.png
         ├── orchard-landscape.png
         ├── product-bottles.png
         └── products/
-            ├── 10082502-1.jpeg
-            ├── 14687201-1.jpeg
-            ├── 15765201-1.jpeg
-            ├── 202501-1.jpeg
-            ├── hylleblomsider.jpg
-            ├── stille-stunder.jpg
-            └── svartsurbaer.jpg
+            ├── gravenstein.png
+            ├── hylleblomsider.png
+            ├── kvennadokkje.png
+            ├── kvitanesen.png
+            ├── stille-stunder.png
+            ├── svartsurbaer.png
+            └── tradisjon.png
 ```
 
 ## TSX File Contents
@@ -500,7 +556,7 @@ const nonAlcoholicProducts = [
   {
     id: "stille-stunder",
     name: "Stille Stunder Still Sider",
-    image: "/images/products/stille-stunder.jpg",
+    image: "/images/products/stille-stunder.png",
     alcohol: "0%",
     description: "Alkoholfri sider med same smak som tradisjonell sider",
     color: "Lys gul",
@@ -509,7 +565,7 @@ const nonAlcoholicProducts = [
   {
     id: "hylleblomsider",
     name: "Hylleblomsider",
-    image: "/images/products/hylleblomsider.jpg",
+    image: "/images/products/hylleblomsider.png",
     alcohol: "0%",
     description: "Forfriskande alkoholfri sider med hylleblomsmak",
     color: "Lys gul",

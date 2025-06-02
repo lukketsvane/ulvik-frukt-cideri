@@ -43,7 +43,7 @@ export default function OmOssPage() {
                 <p>Prøv eplejuice og sider til ulike matrettar!</p>
 
                 <p className="text-xl font-medium text-gray-900 italic">
-                  "Den gode eplesmaken" er basis for alle produkta våre.
+                  “Den gode eplesmaken” er basis for alle produkta våre.
                 </p>
               </div>
             </div>
